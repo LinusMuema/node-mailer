@@ -21,7 +21,7 @@ app.get('/email/text', (req, res) => {
         from: '"moose" <me@moose.dev>',
         to: '"You there" <you@there.com>',
         subject: 'First email',
-        html: 'Hello, nice to meet you'
+        text: 'Hello, nice to meet you'
     })
         .then(info => res.send(info))
         .catch(error => res.send(error))
