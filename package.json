@@ -1,0 +1,14 @@
+{
+  "name": "node-mailer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "pug": "2.0.0-beta11",
+    "nodemon": "^2.0.4",
+    "nodemailer": "^6.4.6"
+  }
+}
